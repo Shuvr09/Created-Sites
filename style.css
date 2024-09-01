@@ -80,9 +80,12 @@ p{
     background-size: 100%;
     background-position: left;
     display: flex;
-    justify-content: center;
+    justify-content:center;
+    align-items: center;
     flex-wrap: wrap;
     padding: 30px;
+    min-height: 0px;
+    overflow: scroll;
     
 }
 .photo-frame .photo img{
