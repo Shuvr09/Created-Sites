@@ -1,167 +1,166 @@
-body{
-    font-family: "Libre Baskerville", serif;
-    font-optical-sizing: auto;
-    font-weight: 400;
-    font-style:normal;
-    margin: 0;
+body {
+  font-family: "Libre Baskerville", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  margin: 0;
 }
-h3{
-    color: black;
+h3 {
+  color: black;
 }
-.Name-highlight{
-    color: tomato;
+.Name-highlight {
+  color: tomato;
 }
-.half-width{
-    float: left;
-    flex: 1;
-    padding: 20px 40px;
-    color: grey;
-    text-align: justify;
+.half-width {
+  float: left;
+  flex: 1;
+  padding: 20px 40px;
+  color: grey;
+  text-align: justify;
+  /* border: 1px solid slateblue; */
 }
-.half-width img{
-    width: 80%;
+.half-width img {
+  width: 80%;
 }
-.link-button-top{
-    text-decoration: none;
-    background-image: linear-gradient(45deg, rgb(255, 117, 11),red);
-    padding: 10px 20px;
-    border-radius: 10px;
-    color: white;
-    font-weight: bold;
+.link-button-top {
+  text-decoration: none;
+  background-image: linear-gradient(45deg, rgb(255, 117, 11), red);
+  padding: 10px 20px;
+  border-radius: 10px;
+  color: white;
+  font-weight: bold;
 }
-.Intro{
-    padding: 20px;
-    background-image: url("Background/header-bg.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position:center;
+.Intro {
+  padding: 20px;
+  background-image: url("Background/header-bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
-section{
-    height: 500px;
-    padding-bottom: 25px;
+section {
+  height: 500px;
+  padding-bottom: 25px;
 }
-.level{
-    padding: 10px 15px;
-    display: flex;
-    justify-content: center;
-    width: 90%;
-    margin-left: 5%;
+.level {
+  padding: 10px 15px;
+  display: flex;
+  justify-content: center;
+  width: 90%;
+  margin-left: 5%;
 }
-h2{
-    font-size: 25px;
+h2 {
+  font-size: 25px;
 }
-p{
-    font-size: 14px;
+p {
+  font-size: 14px;
 }
-.link-button-middle{
-    text-decoration: none;
-    background-image: linear-gradient(45deg,cyan, rgb(28, 28, 248));
-    padding: 10px 20px;
-    border-radius: 10px;
-    color: white;
-    font-weight: bold;
+.link-button-middle {
+  text-decoration: none;
+  background-image: linear-gradient(45deg, cyan, rgb(28, 28, 248));
+  padding: 10px 20px;
+  border-radius: 10px;
+  color: white;
+  font-weight: bold;
 }
-.Middle{
-    background-image: url("Background/biography-bg.png");
-    background-repeat: no-repeat;
-    background-position: left;
-    background-size: cover;
+.Middle {
+  background-image: url("Background/biography-bg.png");
+  background-repeat: no-repeat;
+  background-position: left;
+  background-size: cover;
 }
-.head{
-    color: aqua;
+.head {
+  color: aqua;
 }
-.heading{
-    color: rgb(5, 227, 76);
-    text-align: center;
+.heading {
+  color: rgb(5, 227, 76);
+  text-align: center;
 }
-.photo-album{
-    background-image: url(Background/bg-2.jpg);
-    background-repeat: no-repeat;
-    background-size: 100%;
-    background-position: left;
-    display: flex;
-    justify-content:center;
-    align-items: center;
-    flex-wrap: wrap;
-    padding: 30px;
-    min-height: 0px;
-    overflow: scroll;
-    
+.photo-album {
+  background-image: url(Background/bg-2.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: left;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 30px;
+  min-height: 0px;
+  overflow: scroll;
 }
-.photo-frame .photo img{
-    width: 100%;
+.photo-frame .photo img {
+  width: 100%;
 }
-.photo-frame{
-    height: 225px;
-    width: 300px;
-    position: relative;
-    margin: 5px;
+.photo-frame {
+  height: 225px;
+  width: 300px;
+  position: relative;
+  margin: 5px;
 }
-.photo-detail{
-    position: absolute;
-    height: 225px;
-    width: 300px;
-    top : 0;
-    display: none;
+.photo-detail {
+  position: absolute;
+  height: 225px;
+  width: 300px;
+  top: 0;
+  display: none;
 }
-.photo-frame:hover .photo-detail{
-    display: block;
-    background-color: rgba(4, 55, 94, 0.499);
+.photo-frame:hover .photo-detail {
+  display: block;
+  background-color: rgba(4, 55, 94, 0.499);
 }
 
-.photo-frame:hover .photo-detail h3{
-    color:azure;
-    text-align: center;
-} 
-.photo-frame:hover .photo-detail p{
-    color:rgb(212, 212, 248);
+.photo-frame:hover .photo-detail h3 {
+  color: azure;
+  text-align: center;
 }
-h5{
-    text-align: center;
+.photo-frame:hover .photo-detail p {
+  color: rgb(212, 212, 248);
 }
-h6{
-    text-align: center;
-    color: gray;
-    font-size: 13px;
+h5 {
+  text-align: center;
 }
-.foot{
-    display: flex;
-    flex-direction: column;
-    justify-content:center;
-    align-items:center;
-    width: 80%;
-    margin-left: 10%;
+h6 {
+  text-align: center;
+  color: gray;
+  font-size: 13px;
 }
-#last{
-    font-size: 20px;
-    color: black;
-    text-align: center;
+.foot {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  margin-left: 10%;
 }
-.end{
-    text-align:justify;
-    text-wrap:balance;
-    width: 40%;
+#last {
+  font-size: 20px;
+  color: black;
+  text-align: center;
 }
-#last-part{
-    text-align: center;
-    font-size: 15px;
+.end {
+  text-align: justify;
+  text-wrap: balance;
+  width: 40%;
 }
-.mail{
-    font-size: 15px;
-    padding: 20px 150px;
-    border-radius: 20px;
-    margin:3%;
-    background-image: linear-gradient(45deg,rgb(243, 66, 96),rgb(248, 82, 82));
-    color: white;
-    
+#last-part {
+  text-align: center;
+  font-size: 15px;
 }
-.ending{
-    background-image: url("Background/footer-bg.png");
-    background-repeat: no repeat;
-    background-size: cover;
-    background-position: left;
+.mail {
+  font-size: 15px;
+  padding: 20px 150px;
+  border-radius: 20px;
+  margin: 3%;
+  background-image: linear-gradient(45deg, rgb(243, 66, 96), rgb(248, 82, 82));
+  color: white;
 }
-footer{
-    text-align: center;
-    font-size: 12px;
+.ending {
+  background-image: url("Background/footer-bg.png");
+  background-repeat: no repeat;
+  background-size: cover;
+  background-position: left;
+}
+footer {
+  text-align: center;
+  font-size: 12px;
 }
