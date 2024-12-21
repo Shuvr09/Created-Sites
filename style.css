@@ -99,14 +99,19 @@ p {
 }
 .photo-detail {
   position: absolute;
-  height: 225px;
-  width: 300px;
+  height: 100%;
+  width: 100%;
   top: 0;
   display: none;
+}
+#portrait {
+  height: 175%;
+  width: 100%;
 }
 .photo-frame:hover .photo-detail {
   display: block;
   background-color: rgba(4, 55, 94, 0.499);
+  cursor: pointer;
 }
 
 .photo-frame:hover .photo-detail h3 {
